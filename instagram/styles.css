@@ -1,1 +1,24 @@
-/* Add your CSS here */
+html {
+  box-sizing:border-box;
+  }
+
+ section {
+ float:right;
+ width: 80%;
+}
+ aside {
+   float: right;
+   width: 20%;
+ }
+p {
+
+
+}
+
+
+
+
+
+
+
+  /* Add your CSS here */

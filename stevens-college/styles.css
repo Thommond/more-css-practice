@@ -1,1 +1,43 @@
-/* Add your CSS here */
+html: {
+
+  box-sizing: border-box;
+  }
+
+img {
+ width: 400pt;
+ height: 230pt;
+}
+
+a {
+display: block;
+padding: 10px;
+background: #a5073c;
+color: white;
+text-decoration: none;
+font-family: Arial;
+font-size: 15px;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 25pt;
+  color:#0d2c30;
+}
+  /* Add your CSS here */
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+li.menu {
+
+}
+
+div {
+
+
+}
+
+p {
+
+}
