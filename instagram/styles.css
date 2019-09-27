@@ -26,7 +26,7 @@ article {
 
  }
 
- aside   a:hover {
+ aside a:hover {
 font-weight: bold;
 border-left: 2px solid black;
 
