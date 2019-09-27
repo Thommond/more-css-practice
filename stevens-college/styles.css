@@ -3,41 +3,50 @@ html: {
   box-sizing: border-box;
   }
 
+  *, *::before *::after {
+    box-sizing: inherit;
+  }
+
 img {
- width: 400pt;
- height: 230pt;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+ width: 100%;
+ height: 425px;
 }
 
-a {
+a{
 display: block;
-padding: 10px;
+padding: 23px;
 background: #a5073c;
 color: white;
 text-decoration: none;
 font-family: Arial;
-font-size: 15px;
+font-size:20pt;
 }
 
 h1 {
   font-family: Arial;
-  font-size: 25pt;
+  font-size: 75pt;
   color:#0d2c30;
 }
   /* Add your CSS here */
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
-}
-li.menu {
-
+  padding: 20px;
 }
 
-div {
-
-
-}
 
 p {
+
+}
+
+article {
+display: flex;
+margin: auto;
+flex-direction: column;
+width:50%;
 
 }
