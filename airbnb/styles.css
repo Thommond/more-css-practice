@@ -1,1 +1,35 @@
+
+html {
+  box-sizing: border-box;
+
+}
+
+*, * ::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+section.boxes a {
+
+
+}
+
+div.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.in {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+div.in p {
+  padding: 10px;
+}
 /* Add your CSS here */
